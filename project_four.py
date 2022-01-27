@@ -5,16 +5,17 @@
 # =======================================
 # All libraries have been imported below
 import tkinter as tk
-from tkinter import *
+from tkinter import Label
+from tkinter import Button
+from tkinter import Entry
+from tkinter import Text
+from tkinter import Menu
 import tkinter.messagebox
 import pyttsx3
 import speech_recognition as sr
-import datetime
-import os
 from time import strftime
 import webbrowser
 from speedtest import *
-import png
 import pyqrcode
 from PIL import Image
 import time
@@ -982,17 +983,17 @@ def requirements_all():
 
     def download_req(arg):
         if arg == 56:
-            os.system("pip install tk")
-            os.system("pip install pyttsx3")
-            os.system("pip install SpeechRecognition")
-            os.system("pip install Pillow")
-            os.system("pip install pypng")
-            os.system("pip install pyqrcode")
-            os.system("pip install pywhatkit")
-            os.system("pip install SpeedTest")
-            os.system("pip install python-barcode")
-            os.system("pip install pipwin")
-            os.system("pipwin install pyaudio")
+            #os.system("pip install tk")
+            #os.system("pip install pyttsx3")
+            #os.system("pip install SpeechRecognition")
+            #os.system("pip install Pillow")
+            #os.system("pip install pypng")
+            #os.system("pip install pyqrcode")
+            #os.system("pip install pywhatkit")
+            #os.system("pip install SpeedTest")
+            #os.system("pip install python-barcode")
+            #os.system("pip install pipwin")
+            #os.system("pipwin install pyaudio")
             print("finished")
             tkinter.messagebox.showinfo("Notification","Successfully Downloaded All Reqruiements")
             req_win.destroy()
